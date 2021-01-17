@@ -19,6 +19,6 @@ export class ClassroomController {
 
 	@Post()
 	createClassroom(@Body() createClassroomDto: CreateClassroomDto) {
-		return this.classroomService.createClassroom(createClassroomDto)
+		return this.classroomService.create(createClassroomDto)
 	}
 }
