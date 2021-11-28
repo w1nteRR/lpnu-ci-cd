@@ -24,6 +24,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Build and test
-        run: |
-          npm build
-          npm test
+      - run: npm run build
+      - run: npm run test
