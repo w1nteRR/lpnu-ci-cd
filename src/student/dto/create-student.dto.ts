@@ -1,4 +1,5 @@
 export class CreateStudentDto {
-    readonly first_name: string
-    readonly second_name: string
+  readonly id: number
+  readonly first_name: string
+  readonly second_name: string
 }
